@@ -9,7 +9,9 @@ I was getting YouTube's Error 153 on almost all youtube embeds in my feeds. This
 
 1. Go into your `plugins.local` directory and create a new dir `af_youtube_referrer`
 2. Copy the `init.php` file into the `plugins.local/af_youtube_referrer/` directory.
-3. Enable the plugin in TT-RSS
+3. Open TT-RSS preferences
+4. Disable the default `af_youtube_embed` plugin, as it will be redundant and may interfere
+5. Enable the `af_youtube_referrer` plugin
 
 ## Disclaimer
 
